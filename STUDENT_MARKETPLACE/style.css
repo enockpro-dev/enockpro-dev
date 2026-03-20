@@ -23,6 +23,15 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  animation: colorChange 30s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #a60056; }
+  16.66% { color: #03a600; }
+  50% { color: #a60003; }
+  66.66% { color: #a300a6; }
+  100% { color: #a65000; }
 }
 .student-sell {
   border: 0;
